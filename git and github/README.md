@@ -26,3 +26,6 @@
 
 3.git add . --> this is a command which puts all the untracked file in a staging state
         -- git add Filename --> puting a particular file in staging state
+
+
+4.git commit -m "comment" --> it is command to save the history or the file or the changes made and which are in the "staging state" to the repo
