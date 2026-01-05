@@ -62,4 +62,4 @@
 
 1.git push origin master 
         -- push means pushing on which url that is "origin" on which branch that is "master"
-        ----- push into the origin url into the master branch
+        ----- push into the origin url into the master branchs
