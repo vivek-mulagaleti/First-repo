@@ -75,3 +75,9 @@
 
 4.git merge branchname 
         --> merge to the main branch
+
+5.git clone url
+        --> clone the repo
+
+## from where we have forked is called upstream url
+        --> fork means taking a copy of that project in our account because we cant directly make changes in another ones
