@@ -17,7 +17,7 @@
     -->ls -a (this command shows all the hidden folder)
     -->ls (this command shows the list of all file in that folder)
     
-    To see whats inside .git file the commmand is -->ls .git
+    ---To see whats inside .git file the commmand is -->ls .git
 
 2.git status--> this shows the status means it show which file are not add to repo and which file are untracked 
         for example:
@@ -63,3 +63,15 @@
 1.git push origin master 
         -- push means pushing on which url that is "origin" on which branch that is "master"
         ----- push into the origin url into the master branchs
+
+2.git branch branchname 
+        --> used to create new branch
+        ---> now head is pointing to this branch 
+                --> head is a pointer that says all commits you made will be added on head 
+
+3.git checkout main
+        ---> to go back to the main branch
+
+
+4.git merge branchname 
+        --> merge to the main branch
