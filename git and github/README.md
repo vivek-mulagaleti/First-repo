@@ -29,3 +29,5 @@
 
 
 4.git commit -m "comment" --> it is command to save the history or the file or the changes made and which are in the "staging state" to the repo
+
+5.git restore --staged filename --> this command is used to remove a staged status thing from staged status 
