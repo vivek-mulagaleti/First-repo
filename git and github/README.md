@@ -31,3 +31,35 @@
 4.git commit -m "comment" --> it is command to save the history or the file or the changes made and which are in the "staging state" to the repo
 
 5.git restore --staged filename --> this command is used to remove a staged status thing from staged status 
+
+6.git log --> to see all the commits made in the history
+
+
+7.git reset hashid --> if u deleted some file and you want to restore ur history just copy the below hashid and use this command 
+
+
+## if you dont want to commit and in same time if u dont want to lose those we can use following command 
+
+8.git stash --> it will backstage the changes made
+
+9.git stash pop --> make all backstage to unstaged state 
+
+10.git stash clear --> delete all the backstage change
+
+
+
+## to connect github repo to our project
+
+1.git remote add origin url
+    here -remote means ur are working with url
+        --add means ur adding a new url
+       ---origin means what is the name of the url (in this case name of the url is "origin")
+
+
+2.git remote -v this command show all the urls connect with the project 
+
+## command 
+
+1.git push origin master 
+        -- push means pushing on which url that is "origin" on which branch that is "master"
+        ----- push into the origin url into the master branch
